@@ -1,14 +1,3 @@
-# ccf-hca-rui-locations
-Repo for refining the HCA RUI Locations
+# ARCHIVED
 
-View the registrations live at <https://cns-iu.github.io/ccf-hca-rui-locations/>
-
-## Updating the rui locations
-
-After either editing the `defaults.json` or adding/editing rui registration json files in the rui_registrations folder, run
-
-```bash
-node create-rui-locations.js
-```
-
-to regenerate the `rui_locations.jsonld` file. Commit and push the change and it will be reflected at <https://cns-iu.github.io/ccf-hca-rui-locations/>.
+ccf-hca-rui-locations is now moved to the official [hra-registrations repo](https://github.com/hubmapconsortium/hra-registrations/tree/main/hca-heart-teichmann). You can view the registrations live at <https://hubmapconsortium.github.io/hra-registrations/hca-heart-teichmann/>
